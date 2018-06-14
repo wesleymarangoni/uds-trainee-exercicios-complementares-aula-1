@@ -10,14 +10,11 @@ public class NumeroPositivoOuNegativo {
         System.out.println(verificaNumeroPositivoOuNegativo(numero));
     }
     public static String verificaNumeroPositivoOuNegativo(float numero){
-        String resultadoPositivoOuNegativo;
+        String resultadoPositivoOuNegativo "Numero negativo";
 
         if (numero >= 0){
             resultadoPositivoOuNegativo ="Numero Positivo";
-        }
-        else {
-            resultadoPositivoOuNegativo = "Numero negativo";
-        }
+        }  
         return (resultadoPositivoOuNegativo);
     }
 }
