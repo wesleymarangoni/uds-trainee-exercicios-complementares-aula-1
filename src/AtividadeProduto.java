@@ -4,11 +4,18 @@ import java.util.Scanner;
 public class AtividadeProduto {
     static ArrayList<Produto> listaProdutos = new ArrayList<Produto>();
     public static void main(String[] agrs){
+        int numero;
+        boolean sair = false;
         while (true) {
-            int numero;
             Scanner entrada = new Scanner(System.in);
             adicionaLista();
-            System.out.println("Digite o codigo: ");
+            System.out.println
+                    ("-----------------------------------------\n"
+                            + "-                  Produtos            -\n"
+                            + "-                                      -\n"
+                            + "----------------------------------------\n"
+                            + "Digite o número do produto: \n");
+
             numero = entrada.nextInt();
             System.out.println(imprimirCodigo(numero));
         }
